@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My border</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!-- header basladi--->
+    <header>
+      <!-- navbar basladi-------------->
+      <nav>
+        <ul>
+          <li><a href="#section1">Şəkil ətrafi çərçivələr </a></li>
+          <li><a href="#section2">Link rəngi dəyişmək </a></li>
+          <li><a href="#section3">Cədvəlin xüsusiyyətləri </a></li>
+          <li><a href="#section4">Kənarlıq tərzi xassəsi </a></li>
+        </ul>
+      </nav>
+      <!-- navbar bidi-------------->
+    </header>
+
+    <!-- header bitdi--->
+
+    <!-- section1 basladi-------------->
+
+    <div>
+      <section id="section1">
+        <div class="first"><img src="./img/yeni4.jpg" alt="gul" /></div>
+        <br />
+        <div class="second"><img src="./img/dini.gif" alt="roze" /></div>
+        <br />
+        <div class="third"><img src="./img/yeni4.jpg" alt="rose" /></div>
+        <br />
+        <div class="fourth"><img src="./img/yeni3.jpg" alt="guller" /></div>
+        <br />
+        <br />
+        <div class="fifth"><img src="./img/yeni2.jpg" alt="guller" /></div>
+      </section>
+      <!----section1 bitdi------->
+    </div>
+
+    <!----section2 basladi------->
+
+    <div>
+      <section id="section2">
+        <h1>Link rəngi dəyişmək ucun</h1>
+        <p>
+          visited - ziyarət edilən linklərin rəngini necə təyin edildiyini
+          göstərir
+        </p>
+
+        <p>
+          hover - həmin linkin üzərinə siçan göstəricisini gətirdiyimiz zaman
+          linkin rənginin necə dəyişdiriləcəyini nümayiş etdirir.
+        </p>
+        <p>
+          active -aktiv linklƏrin rənginin necə dəyişdiriləcəyini nümayiş
+          etdirir.
+        </p>
+
+        <a href="./img/dini.gif">Click this link</a>
+        <br />
+
+        <a href="./img/yeni2.jpg">Click here Here</a>
+      </section>
+      <!----section2 bitdi------->
+    </div>
+
+    <!----section3 basladi------->
+    <div>
+      <section id="section3">
+
+        <h1>Cədvəlin aşağıdakı xüsusiyyətlərini təyin etmək mümkündür:</h1>
+
+        <div>
+
+          <ul>
+            <li>
+              The border-collapse cədvəldə xanaların bir-birinə birləşik və ya
+              ayrı olmasını təyin edir
+            </li>
+            <li>
+              The border-spacing xanalar arasındakı boşluqları vermək üçün
+              istifadə olunur.
+            </li>
+            <li>
+              The caption-side cədvələ verilən başlığın harda olmasını təyin
+              edir.Default olaraq top olur yeri.
+            </li>
+            <li>
+              The empty-cells boş olan xanaları gizlətmək üçün istifadə olunur.
+            </li>
+          </ul>
+
+        </div>
+       
+<div>
+
+  <h2>border-collapse: separate (default):</h2>
+
+  <!----cedvel1 basladi----->
+
+  <table class="table1">
+    <tr>
+      <th>Adi</th>
+      <th>Soyadi</th>
+    </tr>
+    <tr>
+      <td>Orxan</td>
+      <td>Abdullayev</td>
+    </tr>
+    <tr>
+      <td>Cavid</td>
+      <td>Abdullayev</td>
+    </tr>
+  </table>
+  <!----cedvel1 bitdi----->
+
+</div>
+
+
+<div>
+  <h2>border-collapse: collapse:</h2>
+
+  <!----cedvel2 basladi----->
+
+  <table class="table2">
+    <tr>
+      <th>Adi</th>
+      <th>Soyadi</th>
+    </tr>
+    <tr>
+      <td>Orxan</td>
+      <td>Abdullayev</td>
+    </tr>
+    <tr>
+      <td>Cavid</td>
+      <td>Abdullayev</td>
+    </tr>
+  </table>
+  <!----cedvel 2 bitdi----->
+
+</div>
+       
+    <div>
+      <h1>border-spacing: 15px:</h1>
+        <p>
+          Sərhəd aralığı xassəsi qonşu xanaların sərhədlərini ayıran məsafəni
+          təyin edir. Bir və ya iki dəyər qəbul edə bilər; bunlar uzunluq
+          vahidləri olmalıdır. Border Collapse Separate olmalıdır bunun üçün
+        </p>
+
+        <!----cedvel 3 basladi----->
+
+        <table class="table3">
+          <tr>
+            <th>Adi</th>
+            <th>Soyadi</th>
+          </tr>
+          <tr>
+            <td>Orxan</td>
+            <td>Abdullayev</td>
+          </tr>
+          <tr>
+            <td>Cavid</td>
+            <td>Abdullayev</td>
+          </tr>
+        </table>
+        <!----cedvel 3 bitdi----->
+
+    </div>   
+<div>
+
+  <h1>border-spacing: 15px 50px:</h1>
+  <p>
+    Sərhəd aralığı xassəsi qonşu xanaların sərhədlərini ayıran məsafəni
+    təyin edir. Bir və ya iki dəyər qəbul edə bilər; bunlar uzunluq
+    vahidləri olmalıdır. Border Collapse Separate olmalıdır bunun üçün
+  </p>
+  <!----cedvel 4 basladi----->
+
+  <table class="table4">
+    <tr>
+      <th>Adi</th>
+      <th>Soyadi</th>
+    </tr>
+    <tr>
+      <td>Orxan</td>
+      <td>Abdullayev</td>
+    </tr>
+    <tr>
+      <td>Cavid</td>
+      <td>Abdullayev</td>
+    </tr>
+  </table>
+
+  <!----cedvel 4 bitdi----->
+
+
+</div>
+        
+<div>
+
+
+  <h1>Caption-side</h1>
+  <h2>
+    Table-a verilən başlığın yerini təyin etmək üçün istifadə olunur: top, bottom, left və right dəyərləri var
+  </h2>
+  <h2>caption-side: bottom:</h2>
+
+  <!----cedvel 5 basladi----->
+
+  <table class="table5">
+    <caption>
+      Table 1.1 Customers (bottom)
+    </caption>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Azercell</td>
+      <td>Alida</td>
+      <td>Azerbaijan</td>
+    </tr>
+    <tr>
+      <td>Nar</td>
+      <td>Elton</td>
+      <td>Sweden</td>
+    </tr>
+    <tr>
+      <td>Turkcell</td>
+      <td>Cihan Ilmaz</td>
+      <td>Tutkish</td>
+    </tr>
+    
+  </table>
+
+  <!----cedvel 5 bitdi----->
+
+
+
+</div>
+
+
+<div>
+  <h2>caption-side: top (default):</h2>
+
+  <!----cedvel 6 basladi----->
+
+  <table class="table6">
+    <caption>
+      Table 1.2 Customers (top)
+    </caption>
+
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Azercell</td>
+      <td>Orxan</td>
+      <td>Azerbaijan</td>
+    </tr>
+    <tr>
+      <td>Nar</td>
+      <td>Elton</td>
+      <td>Sweden</td>
+    </tr>
+    <tr>
+      <td>Turkcell</td>
+      <td>Cihan</td>
+      <td>Turkish</td>
+    </tr>
+  
+  </table>
+
+  <!----cedvel 6 bitdi----->
+
+</div>
+       
+  <div>
+    <h1>Empty-cells</h1>
+    <h2>Table-da olan boş xanaları özü avtomatik silir</h2>
+
+    <h1>The empty-cells Property</h1>
+
+    <h2>empty-cells: hide:</h2>
+
+    <!----cedvel 7 basladi----->
+
+    <table class="table7">
+      <tr>
+        <td>Orxan</td>
+        <td>Cavid</td>
+      </tr>
+      <tr>
+        <td>Cihan</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <!----cedvel 7 bitdi----->
+
+  </div>
+
+       <div>
+
+        <h2>empty-cells: show (default):</h2>
+
+        <!----cedvel 8 basladi----->
+       
+        <table class="table8">
+          <tr>
+            <td>Orxan</td>
+            <td>Cihan</td>
+          </tr>
+          <tr>
+            <td>Cavid</td>
+            <td></td>
+          </tr>
+        </table>
+      </tr>
+
+       </div>
+
+ <!----cedvel 8 bitdi----->
+
+      </section>
+      <!----section3 bitdi------->
+    </div>
+
+
+    <!----section4 basladi------->
+    <div>
+            <section id="section4">
+              <div>
+
+                <h1>
+                  Border xassələri elementi təmsil edən qutunun sərhədinin necə
+                  görünəcəyini müəyyən etməyə imkan verir. Dəyişdirə biləcəyiniz
+                  border-da üç xüsusiyyət var:
+                </h1>
+                <ul>
+                  <li>
+                    The border-color kənarlığın rəngini dəyişmək üçün istifadə olunur.
+                  </li>
+                  <li>
+                    The border-style kənarlığın qırıq-qırıq , düz xətt və s formasında
+                    olmasını təyin edir.
+                  </li>
+                  <li>The border-width kənarlığın genişliyini təyin edir.</li>
+                </ul>
+        
+              </div>
+
+              <div>
+                <h2>Border-color</h2>
+
+<h2>The border-color Property</h2>
+<p>This property specifies the color of the four borders:</p>
+
+<p class="one">A solid red border</p>
+<p class="two">A solid green border</p>
+<p class="three">A dotted blue border</p>
+
+<p class="example1">. Xüsusiyyətlərdən istifadə edərək elementin kənarlığın alt, sol, yuxarı və sağ tərəflərinin rəngini fərdi olaraq dəyişə bilərsiniz</p>
+
+ </div>
+
+
+ <div>
+  <h1>Border-style</h1>
+<h3>Kənarlıq tərzi xassəsi aşağıdakı haşiyə üslublarından birini seçməyə imkan verir:</h3>
+
+<div class="dashed">A div element with a dashed border.</div>
+
+<h3>A Heading with a double border</h3>
+
+<div class="double">A div element with a double border.</div>
+
+<h4>A Heading with a groove border</h4>
+
+<div class="groove">A div element with a groove border.</div>
+
+<h5>A Heading with a ridge border</h5>
+
+<div class="ridge">A div element with a ridge border.</div>
+
+<h6>A Heading with an outset border</h6>
+
+<div class="outset">A div element with an outset border.</div>
+
+
+ </div>
+
+ </section>
+
+      <!-- section4 bitdi-------------->
+    </div>
+
+  </body>
+</html>
